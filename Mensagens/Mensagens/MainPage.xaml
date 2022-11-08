@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mensagens.MainPage"
+             BackgroundImageSource="">
+
+    <StackLayout >
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Esta é sua mensagem!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Grid RowDefinitions="Auto"
+              ColumnDefinitions="*">
+           
+                <Button BackgroundColor="LightGray" TextColor="Black" Clicked="Button_Clicked" Padding="25" VerticalOptions="Center" HorizontalOptions="Center" Text="Conselho"/>
+
+            </Grid>
+    </StackLayout>
+
+</ContentPage>
